@@ -14,10 +14,8 @@ class Dados():
         return self._nome
 
     def github(self):
-        try:
-            with urllib.request.urlopen("https://api.github.com/users/{}".format(self.nome)) as url:
-                dados = json.loads(url.read().decode())
-        except:
-            dados = 0
-            print('Usuário não encontrado')
+        with urllib.request.urlopen("https://api.github.com/users/{}".format(self.nome)) as url:
+            dados = json.loads(url.read().decode())
+        dados = 0
+
         return dados

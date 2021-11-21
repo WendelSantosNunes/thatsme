@@ -6,7 +6,7 @@ def header(dados, url_facebook, url_instagram):
     fpdf.add_page()
 
     fpdf.image('Rectangle 1.png', 0, 0, 180)
-    fpdf.image('Desktop1.png', -30, -10, 210)
+    fpdf.image('Desktop.png', -30, -10, 210)
 
     # fonte
     fpdf.set_font('helvetica', '', 10)

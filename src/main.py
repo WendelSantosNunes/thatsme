@@ -1,5 +1,5 @@
-from badge import Cracha
+from cracha import Cracha
 
-usuario = Cracha('Romuere')
+usuario = Cracha('WendelSantosNunes', None, 'Instagram')
 
 usuario.cracha()

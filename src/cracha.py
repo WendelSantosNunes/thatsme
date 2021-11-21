@@ -30,10 +30,10 @@ class Cracha:
         if self.url_instagram != None:
             Qrcode(self.url_instagram).qrcode().png("Instagram.png", scale=6,
                                                     module_color=[228, 87, 118], background=[248, 197, 33])
-        if self.url_facebook != None and self.url_instagram != None:
+        if self.url_facebook == None and self.url_instagram == None:
             Qrcode('https://github.com/' +
                    self.github).qrcode().png("Github.png", scale=6, module_color=[228, 87, 118], background=[248, 197, 33])
 
         dados = Dados(self.github).github()
-
-        header(dados, self.url_facebook, self.url_instagram)
+        if dados != 0:
+            header(dados, self.url_facebook, self.url_instagram)
