@@ -50,11 +50,11 @@ Colaboradores: <br />
 
 1. Windows: [Download](https://www.python.org/downloads/)
 
-2.Linux Debian e derivados.
+2. Linux Debian e derivados.
 
-    ~~~ Bash
-    	$ sudo apt-get install python3
-    ~~~
+   ```
+       $ sudo apt-get install python3
+   ```
 
 ### PIP
 
