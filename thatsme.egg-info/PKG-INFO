@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: thatsme
-Version: 0.0.2
+Version: 0.0.3
 Summary: Pacote que gera crachá através do nome de usuário do Github com seus dados (Avatar e Bio) e, qrcode de redes sociais (Facebook, Instagram).
 Home-page: https://github.com/WendelSantosNunes/thatsme
 Author: Wendel dos Santos Nunes
